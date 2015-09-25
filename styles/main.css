@@ -8,11 +8,11 @@ body {
 
 /* ----- suggested colors -----
    B26219 cinnamon
-   FFD5AE pale peach 
+   FFD5AE pale peach
    FFBD82 peach
    379CB2 medium blue
    82E8FF light blue
-   
+
    ----- neutral colors -----
    000 black
    333 charcoal
@@ -27,3 +27,98 @@ body {
 
 a { color: #379CB2; }
 a:hover { color: #82E8FF; }
+
+/* CSS time */
+
+header {
+
+  webkit-box-sizing: border-box;
+  moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom: 0px;
+  width: 100%;
+background: #333;
+position: fixed;
+}
+
+h1 {
+
+
+float: left;
+width: 63%;
+margin: 0px;
+padding-left: 20px;
+
+}
+
+nav ul {
+
+list-style-type: none;
+padding-bottom: 20px;
+
+}
+
+nav ul li {
+
+float: left;
+width: 10%;
+display: block;
+text-align: center;
+padding: 0px 5px;
+border: 1px solid #ccc;
+border-radius: 10px;
+margin: 0px 10px;
+
+
+}
+
+    h2 {
+          text-align: center;
+        }
+
+    img {
+          display: block;
+          margin: auto;
+        }
+
+
+
+
+
+#cougar {
+
+padding-top: 50px;
+          background: #FFD5AE;
+        }
+
+#lion {
+  padding-top: 50px;
+        background: #FFBD82;
+        }
+
+#tiger {
+  padding-top: 50px;
+          background: #B26219;
+        }
+
+article {
+          webkit-box-sizing: border-box;
+          moz-box-sizing: border-box;
+          box-sizing: border-box;
+          width: 700px;
+          background: #fff;
+          color: #000;
+          padding: 25px;
+          margin: auto;
+        }
+
+#cougar > p, #lion > p, #tiger > p {text-align: center;}
+
+footer {
+          text-align: center;
+          webkit-box-sizing: border-box;
+          moz-box-sizing: border-box;
+          box-sizing: border-box;
+          padding: 5px 300px;
+
+        }
